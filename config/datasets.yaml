@@ -1,0 +1,6 @@
+AS:
+  - {gse: GSE100927, role: discovery,  platform: GPL17077, tech: Agilent, n: 104, groups: "69 disease / 35 control", note: "3 sites artériels; pas d'âge"}
+  - {gse: GSE43292,  role: validation, platform: GPL6244,  tech: "Affymetrix HuGene 1.0 ST", n: 64, groups: "32 plaque / 32 tissu intact", note: "apparié par patient"}
+PD:
+  - {gse: GSE16134, role: discovery,  platform: "à compléter", n: "à compléter"}
+  - {gse: GSE10334, role: validation, platform: "à compléter", n: "à compléter"}
