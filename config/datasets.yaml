@@ -1,6 +1,10 @@
 AS:
-  - {gse: GSE100927, role: discovery,  platform: GPL17077, tech: Agilent, n: 104, groups: "69 disease / 35 control", note: "3 sites artériels; pas d'âge"}
-  - {gse: GSE43292,  role: validation, platform: GPL6244,  tech: "Affymetrix HuGene 1.0 ST", n: 64, groups: "32 plaque / 32 tissu intact", note: "apparié par patient"}
+  - {gse: GSE28829,  role: discovery,  platform: GPL570, tech: "Affymetrix HG-U133 Plus 2", n: 29, groups: "16 advanced / 13 early", contrast: "advanced vs early plaque", note: "carotide post-mortem; pas d'âge/sexe"}
+  - {gse: GSE20129,  role: discovery_blood, platform: "GPL6104 + GPL10558", tech: Illumina, n: 135, groups: "49 AS / 86 sans AS", note: "sang, femmes; 2 plateformes à traiter séparément"}
+  - {gse: GSE43292,  role: external_check, platform: GPL6244, n: 64, groups: "32 plaque / 32 tissu intact", note: "déjà ingéré; dataset de l'article"}
 PD:
-  - {gse: GSE16134, role: discovery,  platform: "à compléter", n: "à compléter"}
-  - {gse: GSE10334, role: validation, platform: "à compléter", n: "à compléter"}
+  - {gse: GSE54710,  role: discovery,  platform: GPL15159, n: 200, groups: "159 affected / 41 control", note: "apparié (plusieurs échantillons/patient), contrôle = site sain de patient parodontite"}
+  - {gse: GSE173078, role: validation, platform: GPL20301, tech: RNA-seq, n: 36, groups: "12 periodontitis / 12 healthy / 12 gingivitis", note: "counts dans supplementary; batch A/B"}
+  - {gse: GSE23586,  role: optional,   platform: GPL570, n: 6, groups: "3 / 3", note: "trop petit"}
+reproduction_baseline:
+  - {gse: GSE100927, note: "dataset de l'article; silver déjà fait"}
